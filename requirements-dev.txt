@@ -1,7 +1,9 @@
 pytest==6.2.4
 pytest-rerunfailures==10.1
 codecov==2.1.12
-requests==2.26.0
+requests==2.32.2
 flake8==3.9.2
 wheel==0.36.2
-requests==2.26.0
+requests==2.32.2
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
