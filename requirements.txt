@@ -1,4 +1,4 @@
-setuptools==57.4.0
+setuptools==70.0.0
 elasticsearch==7.14.0
 netaddr==0.8.0
 flask==2.0.1
@@ -10,3 +10,5 @@ argparse==1.4.0
 PyYAML==5.4.1 # library_name=yaml
 flask-swagger==0.2.14 # library_name=flask_swagger
 flask-swagger-ui==3.36.0 # library_name=flask_swagger_ui
+werkzeug>=3.0.3 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
